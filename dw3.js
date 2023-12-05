@@ -8,8 +8,8 @@ var nbfxFactory = function() {
   let result = {
     value: function() {
       return({
-        accum: accum,
-        dwkey: dwkey,
+        accum,
+        dwkey,
       })
     },
     grow: function(iChar) {      

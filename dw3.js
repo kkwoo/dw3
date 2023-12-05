@@ -64,7 +64,6 @@ var dw3 = {
               onclick: function() {
                 count++
                 let sample = 1 + (Date.now() % 6)
-                // numbers = `${numbers}${sample}`
                 nbfx().grow(sample)
               }
             }, count + " clicks"),
